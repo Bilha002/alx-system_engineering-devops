@@ -1,2 +1,2 @@
 #!/bin/bash
-firstletters=$( set -f; printf "%c " $line )
+cut -c 1 | paste -s -d ''
